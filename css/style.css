@@ -30,27 +30,73 @@ header h1 {
 .article__options a:first-child {
     border: 1px solid var(--color-7);
 }
-.section__content {
+main {
+    margin: var(--space-layout-trbl);
+}
+.section__home {
+    display: flex;
+}
+.article__content {
     width: 50%;
     display: flex;
     flex-direction: column;
     padding-left: 70px;
 }
-.section__content h1,
-.section__content p, 
-.section__content button {
+.article__content h1,
+.article__content p, 
+.article__content button {
     font-family: 'Poppins', sans-serif;
 }
-.section__content h1 {
+.article__content h1 {
     font-size: 50px;
     color: var(--color-1);
     margin-bottom: 0;
 }
-.section__content p {
+.article__content p {
     color: var(--color-2);
 }
-.section__content button {
+.article__content button {
     width: 120px;
     background: var(--color-1);
     color: var(--color-2);
+}
+.article__image img{
+    width: 300px;
+}
+.section__about {
+    display: flex;
+}
+.about__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+}
+.about__content h1,
+.about__content p, 
+.about__content button,
+.about__content h5 {
+    font-family: 'Poppins', sans-serif;
+}
+.about__content h5 {
+    color: var(--color-1);
+    margin-bottom: 0;
+}
+.about__content h1 {
+    font-size: 25px;
+    color: var(--color-2);
+    margin-bottom: 0;
+}
+.about__content p {
+    color: var(--color-2);
+}
+.about__content button {
+    width: 120px;
+    background: var(--color-1);
+    color: var(--color-2);
+}
+.about__image img{
+    width: 300px;
+    padding-left: 70px;
+    margin-right: 80px;
 }
