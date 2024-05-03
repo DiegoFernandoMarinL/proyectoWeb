@@ -1,5 +1,56 @@
-@import url(variables.css);
+@import url(../css/variables.css);
 
-header p {
-    font-family: 'Poppins', sans-serif;;
+body {
+    background: var(--color-3);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: var(--space-layout-trbl);
+}
+header h1,
+header a h3 {
+    font-family: 'Poppins', sans-serif;
+}
+header h1 {
+    color: var(--color-1);
+}
+.article__options {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+.article__options a h3 {
+    color: var(--color-2);
+    text-align: center;
+    width: 80px;
+    font-size: 15px;
+}
+.article__options a:first-child {
+    border: 1px solid var(--color-7);
+}
+.section__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+.section__content h1,
+.section__content p, 
+.section__content button {
+    font-family: 'Poppins', sans-serif;
+}
+.section__content h1 {
+    font-size: 50px;
+    color: var(--color-1);
+    margin-bottom: 0;
+}
+.section__content p {
+    color: var(--color-2);
+}
+.section__content button {
+    width: 120px;
+    background: var(--color-1);
+    color: var(--color-2);
 }
