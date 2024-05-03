@@ -33,8 +33,9 @@ header h1 {
 main {
     margin: var(--space-layout-trbl);
 }
-.section__home {
+.section__about {
     display: flex;
+    justify-content: center;
 }
 .article__content {
     width: 50%;

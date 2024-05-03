@@ -35,6 +35,7 @@ main {
 }
 .section__home {
     display: flex;
+    justify-content: center;
 }
 .article__content {
     width: 50%;
@@ -62,41 +63,4 @@ main {
 }
 .article__image img{
     width: 300px;
-}
-.section__about {
-    display: flex;
-}
-.about__content {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-}
-.about__content h1,
-.about__content p, 
-.about__content button,
-.about__content h5 {
-    font-family: 'Poppins', sans-serif;
-}
-.about__content h5 {
-    color: var(--color-1);
-    margin-bottom: 0;
-}
-.about__content h1 {
-    font-size: 25px;
-    color: var(--color-2);
-    margin-bottom: 0;
-}
-.about__content p {
-    color: var(--color-2);
-}
-.about__content button {
-    width: 120px;
-    background: var(--color-1);
-    color: var(--color-2);
-}
-.about__image img{
-    width: 300px;
-    padding-left: 70px;
-    margin-right: 80px;
 }
